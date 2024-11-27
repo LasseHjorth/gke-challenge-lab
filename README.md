@@ -152,9 +152,9 @@ Create self-signed certificate:
 openssl req -x509 -newkey rsa:2048 -sha256 -days 365   -nodes -keyout gke.demo.key -out gke.demo.crt -subj "/CN=gke.demo"   -addext "subjectAltName=DNS:gke.demo"
 ```
 
-https://cloud.google.com/certificate-manager/docs/certificates
-https://cloud.google.com/certificate-manager/docs/maps
-https://cloud.google.com/certificate-manager/docs/map-entries
+https://cloud.google.com/certificate-manager/docs/certificates</br>
+https://cloud.google.com/certificate-manager/docs/maps</br>
+https://cloud.google.com/certificate-manager/docs/map-entries</br>
 
 
 ## Deploy Gateway (11)
