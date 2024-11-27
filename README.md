@@ -9,9 +9,6 @@ To make it easy - use the Cloud Shell for being able to execute commands.
 
 Create a custom mode VPC Network in your project name it *vpc*
 
-https://cloud.google.com/vpc/docs/create-modify-vpc-networks
-
-
 VPC info:</br>
 name: vpc</br>
 routing mode: global</br>
@@ -22,6 +19,8 @@ Subnet info:</br>
 name: primary-subnet</br>
 region: europe-west4</br>
 cidr: 10.0.0.0/24</br>
+
+https://cloud.google.com/vpc/docs/create-modify-vpc-networks
 
 
 ## Provision GKE Cluster (2)
