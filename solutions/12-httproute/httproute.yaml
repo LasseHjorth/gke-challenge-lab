@@ -1,0 +1,15 @@
+kind: HTTPRoute
+apiVersion: gateway.networking.k8s.io/v1beta1
+metadata:
+  name: hello-route
+spec:
+  parentRefs:
+  - kind: Gateway
+    name: gke-demo-load-balancer
+    namespace: default
+  hostnames:
+  - "gke.demo"
+  rules:
+  - backendRefs:
+    - name: hello-service
+      port: 8080
