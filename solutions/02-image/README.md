@@ -2,6 +2,9 @@
 # Cloud Build
 
 Simple Cloud Build submit.
+```
+gsutil mb -l eu gs://cloudbuild_${PROJECT_ID}
+```
 
 ```
 gcloud builds submit --tag europe-west4-docker.pkg.dev/${PROJECT_ID}/images/hello-app .
